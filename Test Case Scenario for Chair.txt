@@ -1,0 +1,19 @@
+>>Test case senario for chair.
+
+	A)Positive test scenarios.
+	   1:Validate the chair dimensions(Height,Area covered by seat,weight)as per requirement.
+	   2:Validate the quality of material(wood,plastic) used for chair is as per requirement.
+	   3:Check color combination of chair is as per requirment.
+	   4:Check if you sit on chair it feel comfertable.
+	   5:Check the surface of chair is smooth.
+	   6:Check balance of all four legs after human is sitting.
+	   7:Check balance of chair, if no one can sit on chair. 
+	   8:Check the load paying capacity of chair as per requirement.
+	   9:Check the backrest part of chair is taking enough load.
+	  10:Check the legs of chair having wheels.
+	  11:Check for what purpose the chair is good(Office,House use,Dinning use). 
+		
+
+	B)Negative test scenarios.
+	   1:Try to balance chair on three legs.
+	   2:Check the quality by droping the chair from perticular height.  	

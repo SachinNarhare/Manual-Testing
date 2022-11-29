@@ -1,0 +1,70 @@
+>>Test cases for simple calculator
+	
+	A)Positive test cases
+	   1:Check distance between two keys is good.
+	   2:Check key is pressed successfuly if enough pressure used.
+	   3:Check numbers,signs are printed on keys.
+	   4:Check if calculator is not in use then in how many seconds it will automatically switched off.
+	   5:Check 0 to 9 buttons are working.
+	   6:Check arithmatic operator keys(+,-,*,/) are working. 
+	   7:Check erase button working properly.
+	   8:Check simple bracket working.
+	   9:Check equal to button working.
+	  10:Check percentage(%) operator working.
+	  11:Check square and square root button working.
+	  12:Validate addition of..........
+		a)two positive integer numbers.
+		b)two negative integer numbers.
+		c)one positive and one negative integer number.
+		d)two positive fractional numbers.
+		e)two negative fractional numbers.
+		f)one positive and one negative fractional number.
+		g)one positive integer and one positive fractional number.
+	    	h)one positive integer and one negative fractional number.
+		i)one negative integer and one positive fractional number.
+		j)one negative integer and one negative fractional number.
+	   
+	  13:Validate substraction of..........
+	        a)two positive integer numbers.
+		b)two negative integer numbers.
+		c)one positive and one negative integer number.
+		d)two positive fractional numbers.
+		e)two negative fractional numbers.
+		f)one positive and one negative fractional number.
+		g)one positive integer and one positive fractional number.
+	    	h)one positive integer and one negative fractional number.
+		i)one negative integer and one positive fractional number.
+		j)one negative integer and one negative fractional number.
+
+	  14:Validate multiplication of...........
+	        a)two positive integer numbers.
+		b)two negative integer numbers.
+		c)one positive and one negative integer number.
+		d)two positive fractional numbers.
+		e)two negative fractional numbers.
+		f)one positive and one negative fractional number.
+		g)one positive integer and one positive fractional number.
+	    	h)one positive integer and one negative fractional number.
+		i)one negative integer and one positive fractional number.
+		j)one negative integer and one negative fractional number.
+		
+	  15:Validate division of........
+                a)two positive integer numbers.
+		b)two negative integer numbers.
+		c)one positive and one negative integer number.
+		d)two positive fractional numbers.
+		e)two negative fractional numbers.
+		f)one positive and one negative fractional number.
+		g)one positive integer and one positive fractional number.
+	    	h)one positive integer and one negative fractional number.
+		i)one negative integer and one positive fractional number.
+		j)one negative integer and one negative fractional number.
+	  16:Validate square of integer number.
+	  17:Validate square root of integer number.
+	  
+	   
+	   
+	B)Negative test cases
+	   1:check 4+5* gives any result.
+	   2:Check +*+ gives any result.
+	   

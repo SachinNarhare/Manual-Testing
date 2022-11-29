@@ -1,0 +1,21 @@
+
+>>Test case scenario for online fund transfer using internet banking.
+
+
+	A)Positive test scenario
+	   1)Validate the bank website is valid.
+	   2)Check login is successful by using valid credentials.
+	   3)Validate enough account balance is avilable for money transfer.
+	   4)Validate navigation on fund transfer functionality is working.
+	   5)Validate by adding valid information(bank account number,amount to be transfer,IFSC code) of money receiver is taking or showing any warning message.
+	   6)Validate OTP is received on mobile.
+	   7)Validate recived OTP is accepted or not. 
+	   8)Validate notification(Fund successfuly transfer)is showing after operation is completed. 
+	   9)Validate money is transfered to valid reciver or not.
+	  10)if user excess time limit of fund transfer,then internet banking should get automatically logout. 
+
+	B)Negative Test Scenario
+	   1)Validate the login fuctionality by providing wrong credentials.
+	   2)Validate transfer of fund even though enough amount is not present in bank account.
+	   3)Validate transfer of fund without OTP.
+	   4)Validate transfer of fund by using wrong OTP. 
