@@ -1,0 +1,28 @@
+
+>>Test case scenario for buying product from e-commerce website.
+
+	A)Positive test scenario.
+	   1:Check the e-commerce website URL is valid.
+	   2:Verify userid and password field are present.
+	   3:Verify create new account functionality is working. 
+	   4:Login into website using valid credintials.
+	   5:Try to find out product, which you want to buy using search bar.
+	   6:Add the product into cart.
+	   7:Select how many quantities of product you want to buy.
+	   8:Navigate to billing page.  
+	   9:Fill up all dilivary address fields(address,landmark,pincode)and navigate to payment page.
+	  10:Validate final amount showed.(final amount=(no. of quantity*price of one product)+dilivary charges) 
+	  11:Validate all payment options are present(COD,internet banking id,UPI,credit card,debit card).
+	  12:Use one of the payment option and pay amount.
+	  13:Validate after payment 'Order successfully placed' message shown.
+	  14:Validate placed order is display in 'My Orders'.
+	  15:Validate cancel order option is displayed.
+	  16:Logout from website.  
+
+
+	B)Negative test scenario.
+	   1:Check login functionality by using invalid id and password.
+ 	   2:Try to login without creating account.
+	   3:If cart having zero items, Try to place an order.
+	   4:Provide invalid pincode and try to complete billing process.
+	   5:If your bank balance is zero,try to pay using online payment option.
