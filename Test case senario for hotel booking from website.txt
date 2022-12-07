@@ -1,0 +1,36 @@
+
+>>Test case senario for hotel booking from website.
+
+	A)Positive test case senarios.
+		1)Validate the URL is correct.
+		2)Create an account by providing valid credentials(Name,Mobile No,Email-id).
+		3)Validate user received confirmation message as account created successfully on mobile number and email-id.
+		4)Login into website by providing user-id and password.
+		5)Select City where user want to book hotel.
+		6)Validate after selecting city, hotel names are displayed.
+		7)Select options(rating,size of bed,check-in and check-out time,etc) from filter and apply.
+		8)Validate hotels displayed according to filter applied by user.
+		9)Select one of the hotel and navigate to book button.
+	       10)Select check-in and check-out date.
+	       11)Add names,age of people who want to stay.
+	       12)Select check-in and check-out time, and processed for confirmation.
+	       13)Select internet banking for payment.
+	       14)Select bank name from that user want to pay money.
+	       15)Login into internet banking account by providing valid user-id and password.	
+	       16)Enter received OTP on mobile number.
+	       17)Validate payment is successful message displayed.
+	       18)Validate hotel booking details displayed in my bookings section.
+	       19)Validate hotel booking deatils received on mobile number and email-id.
+	       20)Logout from website.
+	 
+
+
+
+	B)Negative test case senarios.
+		1)Create an account by providing incorrect email-id and mobile number.
+		2)Login into website by providing incorrect user-id and password.
+		3)Select an irrelevant check-in and check-out dates.(checkin-11/02/2023 and checkout-09/02/2023).
+		4)Try to add more peoples name than room size.(if room contains max 2 peoples, try to add more than 2 peoples name) 
+		5)Provide incorrect credentials while doing payment.
+		6)Enter incorrect OTP.
+	
